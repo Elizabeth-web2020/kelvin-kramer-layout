@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600&family=Poppins:ital,wght@0,300;0,400;0,500;1,200&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  background-color: #f1f1f1;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+.header__logo a {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 800;
+  color: #000000;
+}
+.header__logo a span {
+  color: #fda300;
+}
+.header__navigation ul {
+  display: flex;
+  justify-content: end;
+}
+.header__navigation ul li {
+  list-style-type: none;
+  padding-left: 40px;
+}
+.header__navigation ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #303030;
+}
+.header__navigation ul li a:hover {
+  color: #666666;
+}
+.banner__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+.banner__info {
+  max-width: 540px;
+}
+.banner-title {
+  font-size: 44px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.409;
+  width: 436px;
+  height: 109px;
+}
+.banner-text {
+  font-size: 14px;
+  color: rgb(58, 58, 58);
+  line-height: 2;
+  width: 533px;
+  height: 42px;
+}
+.banner__photo img {
+  width: 505px;
+  height: 622px;
+}
+
+/* Services */
+
+.services {
+  max-width: 100vw;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+.services__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-title {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.25;
+}
+.services-text {
+  font-size: 14px;
+  color: rgb(37, 37, 37);
+  line-height: 1.857;
+  width: 334px;
+  height: 67px;
+}
+
+/* Benefits */
+
+.benefits {
+  max-width: 100vw;
+  background-color: #f7f7f7;
+  padding: 100px 0;
+}
+.benefits__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .benefits__info {
+  max-width: 368px;
+  max-height: 630px;
+} */
+.benefits-title {
+  max-width: 300px;
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.389;
+  letter-spacing: 2px;
+}
+.benefits-title span {
+  color: #ffae00;
+}
+.benefits__item {
+  max-width: 368px;
+  padding-left: 47px;
+}
+.benefits__item::before {
+  content: "";
+  display: block;
+  width: 37px;
+  height: 4px;
+  background: #000000;
+  position: relative;
+  top: 17px;
+  left: -50px;
+}
+.benefits__item h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+.benefits__item-title {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.556;
+}
+.benefits__item-text {
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+  line-height: 2;
+  padding-top: 21px;
+  padding-bottom: 40px;
+}
+
+/* Gallery */
+
+.gallery {
+  max-width: 100vw;
+}
+.gallery__content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+.gallery-img {
+  width: 100%;
+}
+
+/* Testimonials */
+
+.testimonials {
+  text-align: center;
+  max-width: 100vw;
+}
+.testimonials__info {
+  max-width: 807px;
+  position: relative;
+  margin: 0 auto;
+}
+.testimonials__info-title {
+  padding-top: 95px;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 30px;
+  color: #000000;
+}
+.commas-icon {
+  top: 60px;
+  right: 350px;
+  position: absolute;
+}
+.icon {
+  padding-top: 50px;
+  font-size: 12px;
+  color: rgb(255, 204, 48);
+  line-height: 2.5;
+  text-align: center;
+}
+.testimonials__info-text {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.testimonials__inner {
+  padding-top: 30px;
+}
+.testimonials__inner-title {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+.testimonials__inner-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #999999;
+}
+.testimonials__wrap {
+  padding: 46px 0 63px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Feedback */
+
+.feedback {
+  max-width: 100vw;
+  background-color: #f1f1f1;
+}
+.feedback__content {
+  padding: 111px 0;
+}
+.feedback__info {
+  text-align: center;
+}
+.feedback__info-title {
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.778;
+  margin-top: 0;
+  margin-bottom: 41px;
+}
+.feedback__info-text {
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+  line-height: 2;
+}
+.feedback__info-text + .feedback__info-text {
+  margin-top: 20px;
+}
+.feedback__info-phone {
+  color: #f8c212;
+}
+.feedback__form {
+  max-width: 950px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.input {
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: "OpenSans";
+  color: rgb(148, 147, 147);
+  line-height: 2.333;
+  background-color: rgb(255, 255, 255);
+  padding: 21px 17px;
+  width: 295px;
+  border: none;
+  margin-bottom: 35px;
+  letter-spacing: 1px;
+}
+.message-input {
+  width: 100%;
+  height: 157px;
+}
+.feedback__button {
+  display: block;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2;
+  background-color: rgb(255, 174, 0);
+  width: 472px;
+  height: 60px;
+  letter-spacing: 3px;
+  border: none;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #1e1e1e;
+}
+.footer__text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #8f8f8f;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__social-networks ul {
+  display: flex;
+  justify-content: end;
+}
+.footer__social-networks ul li {
+  list-style-type: none;
+  padding-left: 40px;
+}
+.footer__social-networks ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: #dadada;
+}
+.footer__social-networks ul li a:hover {
+  color: #666666;
+}
